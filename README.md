@@ -1,21 +1,23 @@
 # Mentat
 
-Mentat is an open-source, fully extensible interface for configuration and deployment of agentic workflows. It provides a streamlined way to set up and manage AI-powered automation tasks.
+Mentat is an AI-powered command-line assistant for automating social media management and other workflows through natural language commands.
 
 ## Features
 
-- Automated environment setup and dependency management
-- Integration with OpenAI's API
-- Git/GitHub integration capabilities
-- Environment variable management
-- Virtual environment handling
+- Natural language command processing
+- Modular workflow system
+- Multiple LLM backend support (OpenAI GPT-4, Anthropic Claude)
+- Twitter integration with full API v2 support
+- Interactive configuration and setup
 
-## Prerequisites
+## Supported Workflows
 
-- Python 3.12 or higher
-- Poetry (package manager) - auto-installed if missing
+### Twitter
+- Post tweets using natural language commands
+- OAuth 1.0a authentication with read/write permissions
+- Automatic credential validation and testing
 
-## Quick Start
+## Installation
 
 1. Clone the repository:
 ```bash
