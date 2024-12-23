@@ -2,7 +2,7 @@
 name = "mentat"
 version = "0.1.0"
 description = "Mentat is an open-source, fully extensible interface for configuration and deployment of agentic workflows."
-authors = ["Your Name <you@example.com>"]
+authors = ["William Hayden <haydenw@bc.edu>"]
 readme = "README.md"
 packages = [{include = "core"}]
 
